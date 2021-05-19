@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		h2{
+			text-shadow: 2px 5px 5px deepskyblue; /*Сүүдэр нэмж байна.*/
+			font-size: 300%; 
+		}
+		h1{ clear: left;
+		}
+		div{
+		}
+		#first{
+			border: 3px solid black; 
+			background: yellow;
+			width:200px;
+			height: 200px;
+			text-align: center;
+			border-radius: 10px;
+			margin-bottom: 20px;
+			float: left;
+		}
+		#second{
+			border: 3px solid black;
+			background: grey;
+			width: 200px;
+			height: 200px;
+			text-align: center;
+			border-radius: 50px;
+			float: left;
+			margin-left: 15px;
+		}
+		#third{
+			border: 3px solid black;
+			background: lightpink;
+			width: 200px;
+            height: 200px;
+            text-align: center;
+            border-radius: 100px;
+            float: left;
+            margin-left: 20px;
+		}
+		 div{
+		 }
+		#div1 {
+		    width: 200px;
+			height: 200px;
+			background: cyan;
+			box-shadow: 15px 15px 20px dimgrey;
+			margin-left: 20px;
+			float: left;
+		}
+		#div2{
+			width: 200px;
+			height: 200px;
+			background: pink;
+			box-shadow: -15px -15px 30px dimgrey;
+			margin-left: 20px;
+			float: left;
+		}
+		#div3{
+			width: 200px;
+			height: 200px;
+            background: grey;
+            box-shadow:  15px 15px 10px dimgrey;
+            margin-left: 20px;
+            float: left;
+        }
+        div{
+        }
+        #div4{
+        	width: 500px;
+        	height: 500px;
+        	background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+        }
+        div{
+        }
+        #div5{
+        	width: 500px;
+        	height: 500px;
+        	text-align: center;
+        	background: radial-gradient( farthest-side at 90% 10%, yellow, orange, grey);
+        	display: inline-block;
+        }
+        div{
+        }
+        #div6{
+        	width: 100px;
+        	height: 50px;
+        	position: relative;
+        	background-color: pink;
+        	border-radius: 25px;
+        	animation-name: tegsh;
+        	animation-duration: 10s;
+        	animation-iteration-count: infinite;
+        }
+        @keyframes tegsh{
+        	0%{top: 0; left: 0;}
+        	25%{top: 0; left: 200px;}
+        	50%{top: 100px; left: 200px;}
+        	75%{top: 100px; left: 0;}
+        	100%{top: 0px; left: 0;}
+        }
+        div{
+        }
+        #div7{
+        }
+        .skew .textbox{
+        	margin-left: 75px;
+        	background: lightgreen;
+        	height: 100px;
+        	width: 200px;
+        	padding: 20px; 0;
+        	text-align: center;
+        	font-size: 250%;
+        	border: 3px solid green;
+        	border-radius: 15px;
+        	transform: skewX(-45deg);
+        	animation: skew 3s infinite linear;
+        }
+        @keyframes skew{
+        	from{transform: skewX(0deg);}
+        	25%{transform: skewX(30deg);}
+        	50%{transform: skewX(0);}
+        	75%{transform: skewX(30deg);}
+        	to{transform: skewX(0);}
+        }
+        .colum{
+        	column-count: 2;
+        	column-gap: 60px;
+        	column-rule: 5px outset blue;
+        }
+        #div11{
+        	width: 100px;
+        	height: 100px;
+        	background: pink;
+        	transition: width 3s, height 3s, transform 3s;
+        	margin: 10px;
+        }
+        #div11:hover {
+        	width: 120px;
+        	height: 120px;
+        }
+        #a{
+        	width: 100px;
+        	height: 100px;
+        	background: green;
+        	transition: width 3s, height 3s, transform 3s;
+        	margin: 10px;
+        }
+        #a:hover {
+        	width: 120px;
+        	height: 120px;
+        }
+        #b{
+        width: 100px;
+        height: 100px;
+        background: red;
+        transition: width 3s, height 3s, transform 3s;
+        margin: 10px;
+        }
+        #b:hover {
+        	width: 120px;
+        	height: 120px;
+        }
+        #c{
+        width: 100px;
+        height: 100px;
+        background: grey;
+        transition: width 3s, height 3s, transform 3s;
+        margin: 10px;
+        }
+        #c:hover {
+        	width: 120px;
+        	height: 120px;
+        }
+        h3{margin: 0.9em 0em; }
+        @media handheld and (max-width: 480px),
+        screen and (max-device-width: 480px),
+        screen and (max-width: 480px){
+        	div{
+        		column-count: 1;
+        	}
+        }
+        @media only screen and (min-width: 481px;)
+        and (max-width: 1024px){
+        	div{
+        		column-count: 2;
+        		column-gap: 30px;
+        		column-rule: 1px outset black;
+        	}
+        }
+        @media only screen and (min-width: 1025px){
+        	div{
+        		column-count: 3;
+        		column-gap: 30px;
+        		column-rule: 1px outset black;
+        	}
+        }
+        @media only screen and (min-width: 1025px){
+        	div{
+        		column-count: 4;
+        		column-gap: 30px;
+        		column-rule: 1px outset black;
+        	}
+        }
+     </style>
+</head>
+<body>
+	<h1>Дасгал 1</h1>
+	<h2>New features in CSS3</h2>
+	<h1>Дасгал 2</h1>
+	<div id="first"><b>qwerty</b></div>
+	<div id="second"><b>asdfg</b></div>
+	<div id="third"><b>zxcvb</b></div>
+	<h1>Дасгал 3</h1>
+	<div id="div1"></div>
+	<div id="div2"></div>
+	<div id="div3"></div>
+    <h1>Дасгал 4</h1>
+    <div id="div4"></div>
+    <h1>Дасгал 5</h1>
+    <div id="div5"></div>
+    <h1>Дасгал 6</h1>
+    <div id="div6"></div>
+
+
+    <h1>Дасгал 7</h1>
+    <div class="box skew">
+    	<div class="textbox">skewing text</div>
+    </div>
+    <h1>Дасгал 8</h1>
+    <h1>Дасгал 9</h1>
+    <div class="colum">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor ac neque a rutrum. In hac habitasse platea dictumst. Praesent semper viverra lectus, vel luctus mi. Etiam sodales leo ut mauris porttitor, in suscipit elit blandit. Donec eget eros dapibus, semper dui a, efficitur ante. Quisque posuere pellentesque magna. Nulla quis ipsum id ante cursus congue vel id est. Suspendisse purus sem, porttitor eu massa ac, malesuada sollicitudin neque. Etiam vel fringilla odio. Integer dictum quam id mauris pulvinar mollis.
+    Duis aliquam erat orci, eu condimentum lectus vulputate nec. Sed lorem justo, ultrices sit amet nibh feugiat, euismod sodales turpis. Phasellus at odio elementum, dapibus mi vitae, accumsan justo. Suspendisse erat velit, posuere tincidunt tortor non, porta ornare mi. Donec nec libero risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam in massa metus.
+    </div>
+    <h1>Дасгал 10</h1>
+    <h1>Дасгал 11</h1>
+    <div id="a"></div>
+    <div id="b"></div>
+    <div id="c"></div>
+    <div id="div11"></div>
+    <h1>Дасгал 12</h1>
+    <header><h1>text text text</h1></header>
+    <div class="h3">
+    Etiam sodales leo ut mauris porttitor, in suscipit elit blandit. Donec eget eros dapibus, semper dui a, efficitur ante. Quisque posuere pellentesque magna. Nulla quis ipsum id ante cursus congue vel id est. Suspendisse purus sem, porttitor eu massa ac, malesuada sollicitudin neque. Etiam vel fringilla odio. Integer dictum quam id mauris pulvinar mollis.
+    Duis aliquam erat orci, eu condimentum lectus vulputate nec. Sed lorem justo, ultrices sit amet nibh feugiat, euismod sodales turpis. Phasellus at odio elementum, dapibus mi vitae, accumsan justo. Suspendisse erat velit, posuere tincidunt tortor non, porta ornare mi. Donec nec libero risus. 
+    </div>
+</body>
+</html>
+
+  
